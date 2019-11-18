@@ -15,6 +15,7 @@
                         {{-- <div class="response alert alert-success"></div> --}}
                         @include('home.partials.errors')
                         {!! Form::open(['route'=>'home.contact.store', 'class' => 'forms', 'role' => 'form', 'method' => 'POST']) !!}
+                        @honeypot
                         <fieldset>
                             <ol>
                                 <li class="form-row text-input-row">

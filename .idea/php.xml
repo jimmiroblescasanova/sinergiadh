@@ -88,6 +88,7 @@
       <path value="$PROJECT_DIR$/vendor/odannyc/laravel-alertify" />
       <path value="$PROJECT_DIR$/vendor/uxweb/sweet-alert" />
       <path value="$PROJECT_DIR$/vendor/jenssegers/date" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-honeypot" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

@@ -16,6 +16,7 @@
 
                     <form action="{{ route('home.registration.store') }}" method="POST" autocomplete="off">
                         @csrf
+                        @honeypot
                         <div class="form-group">
                             <label for="">Nombre(s):</label>
                             <input type="text" class="form-control" name="nombre">
