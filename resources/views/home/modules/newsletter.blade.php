@@ -3,6 +3,7 @@
         <div class="section-title">¿Quieres más información? <span>Déjanos tu correo y te notificaremos de las novedades.</span>
         </div>
         {!! Form::open(['route'=>'mail', 'class' => 'form-inline newsletter', 'role' => 'form', 'id' => 'newsletter', 'method' => 'POST']) !!}
+        @honeypot
         <div>
             <label class="sr-only" for="exampleInputEmail">Email address</label>
             <input type="email" name="correo" class="form-control" id="exampleInputEmail"
