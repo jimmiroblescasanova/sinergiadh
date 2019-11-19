@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sinerg33/public_html/
-    - /bin/cp /home/sinerg33/repositories/sinergiaadh/public/index.php $DEPLOYPATH
+    - /bin/cp /home/sinerg33/repositories/sinergiadh/public/index.php $DEPLOYPATH
